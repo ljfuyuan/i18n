@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "FzFMovjGbAQRog5LrpJyirNZvVc=",
+			"path": "gopkg.in/ini.v1",
+			"revision": "358ee7663966325963d4e8b2e1fbd570c5195153",
+			"revisionTime": "2018-07-12T13:10:51Z"
+		}
+	],
+	"rootPath": "github.com/ljfuyuan/i18n"
+}
