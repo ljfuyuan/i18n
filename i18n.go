@@ -109,6 +109,10 @@ func Init(translationsDir string, defaultLocale string) error {
 
 func Tr(locale string, key string, args ...interface{}) string {
 	if i18n != nil {
+		if locale == "" {
+			locale = i18n.defaultLocale
+		}
+
 		if translations, ok := i18n.translations[locale]; ok {
 			if format, ok := translations[key]; ok {
 				if args != nil {
